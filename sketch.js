@@ -1,6 +1,6 @@
 var Engine = Matter.Engine,
- var World = Matter.World,
-    Bodies = Matter.Bodies;
+var World = Matter.World,
+var Bodies = Matter.Bodies;
 
 var backgroundImg;
 var snow = [];
