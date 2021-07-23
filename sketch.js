@@ -1,5 +1,5 @@
 var Engine = Matter.Engine,
-    World = Matter.World,
+    World = Matter.World,// declare these as a constant 
     Bodies = Matter.Bodies;
 
 var backgroundImg;
