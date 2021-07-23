@@ -10,7 +10,7 @@ class Snow {
         this.r = 10;
         this.body = Bodies.circle(x, y, this.r, options);
         this.image = loadImage("snow5.webp");
-      // World.add(world, this.body);
+        World.add(world, this.body);
     }
     display() {
 
@@ -24,8 +24,8 @@ class Snow {
         //ellipseMode(RADIUS);
         //ellipse(0,0,this.r,this.r);
         imageMode(CENTER);
-        image(this.image, this.body.position.x, this.body.position.y, 50, 50);
-        //image(this.image,0,0, 50, 50);
+        //image(this.image, this.body.position.x, this.body.position.y, 50, 50);
+        image(this.image,0,0, 50, 50);
         pop();
     }
 
