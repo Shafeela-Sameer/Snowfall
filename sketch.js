@@ -1,5 +1,5 @@
 var Engine = Matter.Engine,
-    World = Matter.World,
+ var World = Matter.World,
     Bodies = Matter.Bodies;
 
 var backgroundImg;
